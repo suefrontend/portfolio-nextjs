@@ -9,7 +9,7 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <main>{children}</main>
+        <div className="app">{children}</div>
       </body>
     </html>
   );
