@@ -14,12 +14,16 @@ function HighlightItem(props) {
   };
 
   return (
-    <div className="card text-center p-4">
-      <div className="flex-column items-center justify-center py-10">
-        <div className="border-black border-2 rounded-full inline-block">{iconName[icon]}</div>
-        <h2 className="uppercase text-sm">{title}</h2>
+    <div className="card">
+      <div className="borderCard text-center p-4">
+        <div className="flex-column items-center justify-center py-10">
+          <div className="border-pink text-pink border-2 w-28 h-28 rounded-full inline-block flex items-center justify-center mx-auto mb-4">
+            {iconName[icon]}
+          </div>
+          <h2 className="uppercase text-sm">{title}</h2>
+        </div>
+        <p>{description}</p>
       </div>
-      <p>{description}</p>
     </div>
   );
 }
