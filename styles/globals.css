@@ -51,3 +51,6 @@
   transform: translate(-50%);
   background-color: #fc8596;
 }
+.skill-container, .skill-percentage {
+  height: 12px;
+}
