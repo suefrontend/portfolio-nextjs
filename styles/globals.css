@@ -37,3 +37,17 @@
   background-repeat: no-repeat;
   background-size: 30px 30px;
 }
+.title {
+  /* display: inline-block; */
+  position: relative;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  transform: translate(-50%);
+  background-color: #fc8596;
+}
