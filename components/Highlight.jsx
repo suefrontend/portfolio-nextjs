@@ -9,21 +9,21 @@ const Highlight = () => {
       title: "UI Design",
       description:
         "I research and design experiences that feel seamless to users, paying attention to every little detail. I design with the code in mind, ensuring it's easy to maintain.",
-      icon: "",
+      icon: "ui-design",
     },
     {
       id: 2,
       title: "Web Development",
       description:
         "I am passionate about creating useful applications that people can use in their everyday life. I enjoy challenges and coming up with creative solutions to solve problems.",
-      icon: "",
+      icon: "web-development",
     },
     {
       id: 3,
       title: "Website Renewal",
       description:
         "By analyzing the current issues of the website, I make strategic improvements to optimize its performance and user experience while maximizing its successful aspects.",
-      icon: "",
+      icon: "website-renewal",
     },
   ];
 
@@ -40,9 +40,9 @@ const Highlight = () => {
 
   return (
     <div className="container mx-auto">
-      <p className="text-center">
-        I have over 6+ years of experience working as a web developer. I have
-        created websites and successfully completed projects for various
+      <p className="text-center w-2/4 mx-auto">
+        I have over 6+ years of experience working as a web developer. <br />
+        I have created websites and successfully completed projects for various
         organizations in Canada and Japan, spanning from small businesses to the
         UN.
       </p>
