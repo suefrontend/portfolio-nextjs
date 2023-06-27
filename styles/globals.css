@@ -1,5 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap"); */
 
 @tailwind base;
+@layer base {
+  html {
+    @apply text-slate-500;
+  }
+}
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  border: 1px solid #ccc;
+}
+
+.borderCard {
+  /* width: 100px;
+    height: 100px; */
+  transform: scale(1.005);
+  z-index: 10;
+  background: linear-gradient(to right, #fc8596 1px, transparent 1px) 0 0,
+    /* left top vertical */
+      linear-gradient(to right, #fc8596 1px, transparent 1px) 0 100%,
+    /* left bottom vertical */
+      linear-gradient(to left, #fc8596 1px, transparent 1px) 100% 0,
+    /* right top vertical */
+      linear-gradient(to left, #fc8596 1px, transparent 1px) 100% 100%,
+    /* right bottom vertical */
+      linear-gradient(to bottom, #fc8596 1px, transparent 1px) 0 0,
+    /* left top horizontal */
+      linear-gradient(to bottom, #fc8596 1px, transparent 1px) 100% 0,
+    /* right top horizontal */
+      linear-gradient(to top, #fc8596 1px, transparent 1px) 0 100%,
+    /* left bottom horizontal */
+      linear-gradient(to top, #fc8596 1px, transparent 1px) 100% 100%; /* right top horizontal */
+
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
