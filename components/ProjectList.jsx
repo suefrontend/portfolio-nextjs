@@ -69,8 +69,13 @@ function ProjectList() {
   });
 
   return (
-    <div className="container mx-auto flex flex-col gap-y-20">
-      {renderedList}
+    <div className="my-20">
+      <h2 className="text-center mb-14 title text-lg pb-1 tracking-wide">
+        Projects
+      </h2>
+      <div className="container mx-auto flex flex-col gap-y-20">
+        {renderedList}
+      </div>
     </div>
   );
 }
