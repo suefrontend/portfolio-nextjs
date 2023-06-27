@@ -1,5 +1,7 @@
 "use client";
 
+import SkillList from "@components/SkillList";
+
 function About() {
   return (
     <div className="my-20">
@@ -27,6 +29,7 @@ function About() {
       </div>
       <div>
         <h3 className="text-pink text-center">Skills &amp; Tools</h3>
+        <SkillList />
       </div>
     </div>
   );
