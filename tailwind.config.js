@@ -7,12 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      borderColor: {
-        pink: "#fc8596",
-      },
       colors: {
-        "main-bg-color": "#02172F",
-        "text-gray-color": "#fff",
+        pink: "#fc8596",
       },
     },
   },
