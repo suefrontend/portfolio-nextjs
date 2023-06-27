@@ -1,8 +1,10 @@
 "use client";
+import ProjectItem from "@components/ProjectItem";
 
 function ProjectList() {
   const projects = [
     {
+      id: 1,
       title: "Wiki Map - Map Sharing App",
       subtitle: "Lighthouse Labs Midterm Group Project",
       description:
@@ -17,8 +19,10 @@ function ProjectList() {
         "UI Design",
       ],
       github: "https://github.com/suefrontend/wikiMap",
+      image: "/images/project/wikimap.png",
     },
     {
+      id: 2,
       title: "First Aide - Health Care App",
       subtitle: "Lighthouse Labs Final Group Project",
       description:
@@ -32,8 +36,10 @@ function ProjectList() {
         "UI Design",
       ],
       github: "https://github.com/suefrontend/first-aide-client",
+      image: "/images/project/first-aide.png",
     },
     {
+      id: 3,
       title: "SnapNews - Educational Quiz App",
       subtitle: "Personal Project",
       description:
@@ -41,10 +47,32 @@ function ProjectList() {
       skills: ["React", "API", "UI Design"],
       github:
         "https://github.com/suefrontend/match-headline-and-thumbnail-react",
+      image: "/images/project/wikimap.png",
     },
   ];
 
-  return <div>ProjectList</div>;
+  const renderedList = projects.map((project, index) => {
+    const isOdd = index % 2 !== 0;
+
+    return (
+      <ProjectItem
+        key={project.id}
+        title={project.title}
+        subtitle={project.subtitle}
+        description={project.description}
+        skills={project.skills}
+        github={project.github}
+        image={project.image}
+        isOdd={isOdd}
+      />
+    );
+  });
+
+  return (
+    <div className="container mx-auto flex flex-col gap-y-20">
+      {renderedList}
+    </div>
+  );
 }
 
 export default ProjectList;
