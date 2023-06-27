@@ -1,7 +1,17 @@
 "use client";
+import Image from "next/image";
 
-const Main = () => {
-  return <div>Main</div>;
-};
+function Main() {
+  return (
+    <>
+      <Image
+        src="/images/spiral.jpg"
+        width={500}
+        height={500}
+        className="mx-auto"
+      />
+    </>
+  );
+}
 
 export default Main;
