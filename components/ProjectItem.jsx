@@ -3,13 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 function ProjectItem(props) {
-  const { title, subtitle, description, skills, github, image, isOdd } = props;
+  const { id, title, subtitle, description, skills, github, image, isOdd } =
+    props;
 
   return (
     // flex-row-reverse
-    <div className={`flex gap-20 ${isOdd ? "flex-row-reverse" : ""}`}>
+    <div className={`flex gap-20 ${isOdd ? "flex-row-reverse" : ""}`} key={id}>
       <div style={{ borderWidth: "1px" }}>
-        <Image src={image} width={1100} height={315} />
+        <Image src={image} width={1100} height={315} alt={title} />
       </div>
       <div>
         <h3 className="text-2xl">{title}</h3>

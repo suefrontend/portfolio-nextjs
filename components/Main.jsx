@@ -9,6 +9,7 @@ function Main() {
         width={500}
         height={500}
         className="mx-auto"
+        alt="Spiral"
       />
     </>
   );
