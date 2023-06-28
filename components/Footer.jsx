@@ -4,23 +4,23 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="text-center py-4">
-      <ul className="flex mx-auto justify-between w-2/5 mb-4">
-        <li className="bg-slate-200 p-3 rounded-full">
+      <ul className="flex mx-auto justify-between md:w-1/4 max-md:w-1/2 mb-4">
+        <li className="bg-gray-100 p-3 rounded-full">
           <Link href="https://github.com/suefrontend" target="_blank">
-            <FaGithub size={20} color="#ababab" />
+            <FaGithub size={20} className="text-gray-400" />
           </Link>
         </li>
-        <li className="bg-slate-200 p-3 rounded-full">
+        <li className="bg-gray-100 p-3 rounded-full">
           <Link
             href="https://www.linkedin.com/in/kayano-oyama/"
             target="_blank"
           >
-            <FaLinkedin size={20} color="#ababab" />
+            <FaLinkedin size={20} className="text-gray-400" />
           </Link>
         </li>
-        <li className="bg-slate-200 p-3 rounded-full">
+        <li className="bg-gray-100 p-3 rounded-full">
           <Link href="/">
-            <FaEnvelope size={20} color="#ababab" />
+            <FaEnvelope size={20} className="text-gray-400" />
           </Link>
         </li>
       </ul>
