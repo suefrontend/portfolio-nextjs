@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { FaGithub } from "react-icons/fa";
 
 function ProjectItem(props) {
   const { id, title, subtitle, description, skills, github, image, isOdd } =
@@ -9,7 +10,9 @@ function ProjectItem(props) {
   return (
     // flex-row-reverse
     <div
-      className={`md:flex md:gap-10 lg:gap-20 ${isOdd ? "flex-row-reverse" : ""}`}
+      className={`md:flex md:gap-10 lg:gap-20 ${
+        isOdd ? "flex-row-reverse" : ""
+      }`}
       key={id}
     >
       <div style={{ borderWidth: "1px" }} className="max-md:mb-6">
@@ -25,15 +28,19 @@ function ProjectItem(props) {
           ))}
         </div>
         <div className="flex gap-2 text-center text-sm mt-4">
-          <Link href="/" className="bg-pink flex-1 py-2 text-white">
-            Detail
+          <Link
+            href="/"
+            className="bg-pink flex-1 py-2 text-white flex items-center justify-center"
+          >
+            <span className="mt-1">Detail</span>
           </Link>
           <Link
             href={github}
             target="_blank"
-            className="border border-pink flex-1 py-2"
+            className="bg-white border border-pink flex-1 py-2 text-pink flex items-center justify-center gap-2"
           >
-            Github
+            <FaGithub size={20} className="text-pink" />
+            <span className="mt-1">Github</span>
           </Link>
         </div>
       </div>
