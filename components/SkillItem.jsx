@@ -16,7 +16,6 @@ function SkillItem(props) {
     "90%": "w-11/12",
     "100%": "w-full",
   };
-  console.log("percengateToWidth[percentage", percengateToWidth[percentage]);
 
   return (
     <div className="mb-4">
