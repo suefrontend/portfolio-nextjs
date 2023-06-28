@@ -1,7 +1,6 @@
 "use client";
 import { PiPencilLight } from "react-icons/pi";
 import { BiLogoReact } from "react-icons/bi";
-import { FiTool } from "react-icons/fi";
 import { PiWrenchLight } from "react-icons/pi";
 
 function HighlightItem(props) {

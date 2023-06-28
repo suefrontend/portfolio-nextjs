@@ -2,7 +2,7 @@
 
 function Contact() {
   return (
-    <div className="mx-auto w-6/12">
+    <div className="mx-auto w-6/12 mb-10">
       <h2 className="text-center title text-lg pb-1 tracking-wide">Contact</h2>
       <p className="py-8 text-center">I'd love to hear from you!</p>
       <form>
