@@ -52,7 +52,7 @@ const Highlight = () => {
         organizations in Canada and Japan, spanning from small businesses to the
         UN.
       </p>
-      <div className="grid grid-cols-3 gap-7">{renderedList}</div>
+      <div className="grid md:grid-cols-3 gap-7">{renderedList}</div>
     </div>
   );
 };
