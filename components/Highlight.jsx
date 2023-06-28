@@ -46,13 +46,13 @@ const Highlight = () => {
       >
         Highlights
       </h2>
-      <p className="text-center w-2/4 mx-auto mb-10">
+      <p className="leading-8 text-center md:w-2/4 mx-auto mb-10">
         I have over 6+ years of experience working as a web developer. <br />I
         have created websites and successfully completed projects for various
         organizations in Canada and Japan, spanning from small businesses to the
         UN.
       </p>
-      <div className="grid grid-cols-3 gap-7">{renderedList}</div>
+      <div className="grid md:grid-cols-3 md:gap-7 max-md:gap-4">{renderedList}</div>
     </div>
   );
 };
