@@ -3,7 +3,7 @@
 @tailwind base;
 @layer base {
   html {
-    @apply text-slate-500;
+    @apply text-color;
   }
 }
 @tailwind components;

@@ -39,7 +39,8 @@ const Highlight = () => {
   });
 
   return (
-    <div className="container mx-auto">
+    <div className="xl:w-4/6 mx-auto">
+      {/* w-4/6 -> 66.666667%; */}
       <h2
         className="text-center mb-14 title text-lg pb-1 tracking-wide"
         key="project-list"
@@ -52,7 +53,9 @@ const Highlight = () => {
         organizations in Canada and Japan, spanning from small businesses to the
         UN.
       </p>
-      <div className="grid md:grid-cols-3 md:gap-7 max-md:gap-4">{renderedList}</div>
+      <div className="grid md:grid-cols-3 md:gap-6 max-md:gap-4 2xl:gap-16">
+        {renderedList}
+      </div>
     </div>
   );
 };

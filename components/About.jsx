@@ -8,10 +8,10 @@ function About() {
       <h2 className="text-center mb-12 title text-lg pb-1 tracking-wide">
         About Me
       </h2>
-      <h3 className="text-pink text-center">
+      <h3 className="text-pink text-center text-lg">
         Expanding from Front-end to Full-stack
       </h3>
-      <div className="xl:w-1/2 md:max-xl:w-9/12 mx-auto pt-6 mb-16">
+      <div className="xl:w-1/2 md:max-xl:w-9/12 mx-auto pt-6 mb-16 leading-8">
         <p className="mb-6">
           I'm a software developer with a background in web design. After
           gaining experience in creating static websites and CMS-based web
@@ -28,7 +28,7 @@ function About() {
         </p>
       </div>
       <div>
-        <h3 className="text-pink text-center">Skills &amp; Tools</h3>
+        <h3 className="text-pink text-center text-lg">Skills &amp; Tools</h3>
         <SkillList />
       </div>
     </div>
