@@ -70,10 +70,16 @@ function ProjectList() {
 
   return (
     <div className="my-20">
-      <h2 className="text-center mb-14 title text-lg pb-1 tracking-wide">
+      <h2
+        className="text-center mb-14 title text-lg pb-1 tracking-wide"
+        key="project-list"
+      >
         Projects
       </h2>
-      <div className="container mx-auto flex flex-col gap-y-20">
+      <div
+        className="container mx-auto flex flex-col gap-y-20"
+        key="project-list-item"
+      >
         {renderedList}
       </div>
     </div>
