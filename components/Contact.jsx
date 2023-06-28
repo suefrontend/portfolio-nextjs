@@ -8,8 +8,8 @@ function Contact() {
       <form>
         <div className="mb-2">
           <input
-            className="border w-full px-2 py-1 !outline-none"
-            id="frm-phone"
+            className="border w-full px-2 py-1 !outline-none border-gray-200 focus:border-pink focus:ring-pink placeholder-gray-400 placeholder-opacity-50"
+            id="name"
             type="text"
             name="name"
             placeholder="Name"
@@ -18,11 +18,10 @@ function Contact() {
         </div>
         <div className="mb-2">
           <input
-            className="border w-full px-2 py-1 !outline-none"
-            id="frm-email"
+            className="border w-full px-2 py-1 !outline-none border-gray-200 focus:border-pink focus:ring-pink placeholder-gray-400 placeholder-opacity-50"
+            id="email"
             type="email"
             name="email"
-            autoComplete="email"
             placeholder="Email"
             required
           />
@@ -31,11 +30,10 @@ function Contact() {
         <div className="mb-2">
           <div>
             <input
-              className="border w-full px-2 py-1 !outline-none"
-              id="frm-first"
+              className="border w-full px-2 py-1 !outline-none border-gray-200 focus:border-pink focus:ring-pink placeholder-gray-400 placeholder-opacity-50"
+              id="subject"
               type="text"
               name="first"
-              autoComplete="given-name"
               placeholder="Subject"
               required
             />
@@ -43,11 +41,12 @@ function Contact() {
         </div>
         <div className="mb-2">
           <textarea
-            className="border w-full px-2 py-1 !outline-none"
-            id="frm-message"
+            className="border w-full px-2 py-1 !outline-none border-gray-200 focus:border-pink focus:ring-pink placeholder-gray-400 placeholder-opacity-50"
+            id="message"
             rows="6"
             name="message"
             placeholder="Message"
+            required
           ></textarea>
         </div>
         <div>
