@@ -13,7 +13,7 @@ function HighlightItem(props) {
   };
 
   return (
-    <div className="card">
+    <div className="card bg-white">
       <div className="borderCard text-center p-4">
         <div className="flex-column items-center justify-center py-10">
           <div className="border-pink text-pink border-2 w-28 h-28 rounded-full inline-block flex items-center justify-center mx-auto mb-4">
