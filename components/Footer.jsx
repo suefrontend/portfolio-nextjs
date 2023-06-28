@@ -19,7 +19,7 @@ function Footer() {
           </Link>
         </li>
         <li className="bg-slate-200 p-3 rounded-full">
-          <Link href="mailto:oyamakayano@gmail.com">
+          <Link href="/">
             <FaEnvelope size={20} color="#ababab" />
           </Link>
         </li>

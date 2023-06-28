@@ -40,9 +40,15 @@ const Highlight = () => {
 
   return (
     <div className="container mx-auto">
-      <p className="text-center w-2/4 mx-auto">
-        I have over 6+ years of experience working as a web developer. <br />
-        I have created websites and successfully completed projects for various
+      <h2
+        className="text-center mb-14 title text-lg pb-1 tracking-wide"
+        key="project-list"
+      >
+        Highlights
+      </h2>
+      <p className="text-center w-2/4 mx-auto mb-10">
+        I have over 6+ years of experience working as a web developer. <br />I
+        have created websites and successfully completed projects for various
         organizations in Canada and Japan, spanning from small businesses to the
         UN.
       </p>
