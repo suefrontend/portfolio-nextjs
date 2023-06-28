@@ -77,7 +77,7 @@ function ProjectList() {
         Projects
       </h2>
       <div
-        className="container mx-auto flex flex-col md:gap-y-20 max-md:gap-y-12"
+        className="xl:w-4/6 mx-auto flex flex-col md:gap-y-20 max-md:gap-y-12"
         key="project-list-item"
       >
         {renderedList}
