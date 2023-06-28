@@ -9,6 +9,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.app {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh; */
+}
+.app:after {
+  content: "";
+  background-image: url("/images/grid.svg");
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 510%;
+  overflow: hidden;
+  top: 0;
+  opacity: 0.5;
+  filter: invert(1);
+}
+
 .card {
   border: 1px solid #ccc;
 }
@@ -51,6 +71,7 @@
   transform: translate(-50%);
   background-color: #fc8596;
 }
-.skill-container, .skill-percentage {
+.skill-container,
+.skill-percentage {
   height: 12px;
 }
