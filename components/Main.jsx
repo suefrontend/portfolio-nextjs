@@ -8,12 +8,14 @@ function Main() {
         src="/images/spiral.jpg"
         width={700}
         height={700}
-        className="mx-auto"
+        className="mx-auto mix-blend-darken"
         alt="Spiral"
       />
       <div className="uppercase text-center ">
         <h1 className="text-3xl tracking-wider">Kayano Oyama</h1>
-        <span className="text-pink text-lg tracking-widest">Software Developer</span>
+        <span className="text-pink text-lg tracking-widest">
+          Software Developer
+        </span>
       </div>
     </div>
   );
