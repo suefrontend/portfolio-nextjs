@@ -8,17 +8,20 @@ function ProjectItem(props) {
 
   return (
     // flex-row-reverse
-    <div className={`flex gap-20 ${isOdd ? "flex-row-reverse" : ""}`} key={id}>
-      <div style={{ borderWidth: "1px" }}>
+    <div
+      className={`md:flex md:gap-10 lg:gap-20 ${isOdd ? "flex-row-reverse" : ""}`}
+      key={id}
+    >
+      <div style={{ borderWidth: "1px" }} className="max-md:mb-6">
         <Image src={image} width={1100} height={315} alt={title} />
       </div>
       <div>
         <h3 className="text-2xl">{title}</h3>
         <span className="text-pink block">{subtitle}</span>
         <p className="py-8 leading-6">{description}</p>
-        <div className="mb-6">
+        <div className="mb-6 flex flex-wrap gap-2">
           {skills.map((skill) => (
-            <span className="bg-gray-100 mr-2 text-xs py-1 px-2">{skill}</span>
+            <span className="bg-gray-100 text-xs py-1 px-2">{skill}</span>
           ))}
         </div>
         <div className="flex gap-2 text-center text-sm mt-4">
