@@ -11,7 +11,7 @@ function About() {
       <h3 className="text-pink text-center">
         Expanding from Front-end to Full-stack
       </h3>
-      <div className="w-2/4 mx-auto pt-8 mb-12">
+      <div className="xl:w-1/2 md:max-xl:w-9/12 mx-auto pt-6 mb-16">
         <p className="mb-6">
           I'm a software developer with a background in web design. After
           gaining experience in creating static websites and CMS-based web
