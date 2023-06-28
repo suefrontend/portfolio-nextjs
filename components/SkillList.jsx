@@ -28,7 +28,7 @@ function SkillList() {
   });
 
   return (
-    <div className="grid grid-cols-4 xl:w-1/2 md:max-xl:w-9/12 mx-auto pt-6 mb-12 gap-x-10">
+    <div className="grid max-sm:gap-x-4 grid-cols-4 xl:w-1/2 md:max-xl:w-9/12 mx-auto pt-6 mb-12 gap-x-10">
       {renderedList}
     </div>
   );
