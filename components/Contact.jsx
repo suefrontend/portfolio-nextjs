@@ -8,7 +8,7 @@ function Contact() {
       <form>
         <div className="mb-2">
           <input
-            className="border w-full p-1"
+            className="border w-full px-2 py-1 !outline-none"
             id="frm-phone"
             type="text"
             name="name"
@@ -18,7 +18,7 @@ function Contact() {
         </div>
         <div className="mb-2">
           <input
-            className="border w-full p-1"
+            className="border w-full px-2 py-1 !outline-none"
             id="frm-email"
             type="email"
             name="email"
@@ -31,7 +31,7 @@ function Contact() {
         <div className="mb-2">
           <div>
             <input
-              className="border w-full p-1"
+              className="border w-full px-2 py-1 !outline-none"
               id="frm-first"
               type="text"
               name="first"
@@ -43,7 +43,7 @@ function Contact() {
         </div>
         <div className="mb-2">
           <textarea
-            className="border w-full p-1"
+            className="border w-full px-2 py-1 !outline-none"
             id="frm-message"
             rows="6"
             name="message"
