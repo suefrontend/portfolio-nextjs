@@ -10,12 +10,12 @@ function ProjectItem(props) {
   return (
     // flex-row-reverse
     <div
-      className={`md:flex md:gap-10 lg:gap-20 ${
+      className={`md:flex md:gap-10 ${
         isOdd ? "flex-row-reverse" : ""
       }`}
       key={id}
     >
-      <div className="relative max-md:mb-6 border w-full max-md:h-60">
+      <div className="relative max-md:mb-6 w-full max-md:h-60">
         <Image
           src={image}
           fill
@@ -28,7 +28,7 @@ function ProjectItem(props) {
       <div className="flex-2">
         <h3 className="text-2xl">{title}</h3>
         <span className="text-pink block">{subtitle}</span>
-        <p className="py-8 leading-6">{description}</p>
+        <p className="md:py-10 max-md:py-8 leading-7">{description}</p>
         <div className="mb-6 flex flex-wrap gap-2">
           {skills.map((skill) => (
             <span className="bg-bglightgrey text-xs py-1 px-2 text-lightgrey">

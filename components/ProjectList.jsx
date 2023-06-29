@@ -78,7 +78,7 @@ function ProjectList() {
       </h2>
       {/* xl:w-4/6 */}
       <div
-        className="container flex flex-col md:gap-y-20 max-md:gap-y-12"
+        className="container flex flex-col md:gap-y-28 max-md:gap-y-12"
         key="project-list-item"
       >
         {renderedList}
