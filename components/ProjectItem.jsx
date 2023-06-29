@@ -28,20 +28,24 @@ function ProjectItem(props) {
           ))}
         </div>
         <div className="flex gap-2 text-center text-sm mt-4">
-          <Link
+          <a
             href="/"
-            className="bg-pink flex-1 py-2 text-white flex items-center justify-center"
+            className="bg-pink flex-1 py-2 text-white flex items-center justify-center relative btn-pink"
+            onClick={(e) => {
+              e.preventDefault();
+              alert("I'm working on this page right now!");
+            }}
           >
             <span className="mt-1">Detail</span>
-          </Link>
-          <Link
+          </a>
+          <a
             href={github}
             target="_blank"
-            className="bg-white border border-pink flex-1 py-2 text-pink flex items-center justify-center gap-2"
+            className="bg-white border-x border-t border-pink flex-1 py-2 text-pink flex items-center justify-center gap-2 relative btn-white"
           >
             <FaGithub size={20} className="text-pink" />
             <span className="mt-1">Github</span>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

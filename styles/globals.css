@@ -57,3 +57,21 @@ body {
 .skill-percentage {
   height: 12px;
 }
+.btn-pink {
+  box-shadow: 0 2px #db5165;
+  top: -2px;
+  transition: 0.1s;
+}
+.btn-pink:hover {
+  top: 0;
+  box-shadow: 0 1px #c86472;
+}
+.btn-white {
+  box-shadow: 0 2px #fb99a7;
+  top: -2px;
+  transition: 0.1s;
+}
+.btn-white:hover {
+  top: 0;
+  box-shadow: 0 1px #fc8596;
+}
