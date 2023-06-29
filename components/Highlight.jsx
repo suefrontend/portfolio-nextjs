@@ -39,8 +39,8 @@ const Highlight = () => {
   });
 
   return (
-    <div className="xl:w-4/6 mx-auto">
-      {/* w-4/6 -> 66.666667%; */}
+    <div className="lg:w-3/4 min-2xl:w-3/4 container">
+      {/* w-4/6 -> 66.666667%; w-3/4 -> 75% */}
       <h2
         className="text-center mb-14 title text-lg pb-1 tracking-wide"
         key="project-list"
@@ -48,6 +48,8 @@ const Highlight = () => {
         Highlights
       </h2>
       <p className="leading-8 text-center md:w-2/4 mx-auto mb-10">
+        {" "}
+        {/* md:w-2/4 */}
         I have over 6+ years of experience working as a web developer. <br />I
         have created websites and successfully completed projects for various
         organizations in Canada and Japan, spanning from small businesses to the
