@@ -8,8 +8,7 @@ import Footer from "@components/Footer";
 
 export default function Home() {
   return (
-    <div className="app">
-      {/* <Image src="/images/grid.svg" alt="background image" fill /> */}
+    <div className="app max-xl:px-4">
       <Main />
       <Highlight />
       <ProjectList />
