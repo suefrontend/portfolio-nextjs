@@ -38,17 +38,17 @@ function ProjectList() {
       github: "https://github.com/suefrontend/first-aide-client",
       image: "/images/project/first-aide.png",
     },
-    {
-      id: 3,
-      title: "SnapNews - Educational Quiz App",
-      subtitle: "Personal Project",
-      description:
-        "SnapNews is a quiz app that utilizes BBC news RSS. Users select from a group of thumbnails, the image that best matches a provided headline. It's a fun and interactive way to test your knowledge and stay updated with the latest news.",
-      skills: ["React", "API", "UI Design"],
-      github:
-        "https://github.com/suefrontend/match-headline-and-thumbnail-react",
-      image: "/images/project/wikimap.png",
-    },
+    // {
+    //   id: 3,
+    //   title: "SnapNews - Educational Quiz App",
+    //   subtitle: "Personal Project",
+    //   description:
+    //     "SnapNews is a quiz app that utilizes BBC news RSS. Users select from a group of thumbnails, the image that best matches a provided headline. It's a fun and interactive way to test your knowledge and stay updated with the latest news.",
+    //   skills: ["React", "API", "UI Design"],
+    //   github:
+    //     "https://github.com/suefrontend/match-headline-and-thumbnail-react",
+    //   image: "/images/project/wikimap.png",
+    // },
   ];
 
   const renderedList = projects.map((project, index) => {
@@ -76,8 +76,9 @@ function ProjectList() {
       >
         Projects
       </h2>
+      {/* xl:w-4/6 */}
       <div
-        className="xl:w-4/6 mx-auto flex flex-col md:gap-y-20 max-md:gap-y-12"
+        className="container flex flex-col lg:gap-y-24 md:gap-y-16 max-md:gap-y-16"
         key="project-list-item"
       >
         {renderedList}
