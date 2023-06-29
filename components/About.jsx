@@ -4,7 +4,7 @@ import SkillList from "@components/SkillList";
 
 function About() {
   return (
-    <div className="my-20">
+    <div className="my-20 container">
       <h2 className="text-center mb-12 title text-lg pb-1 tracking-wide">
         About Me
       </h2>

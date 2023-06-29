@@ -8,7 +8,7 @@ import Footer from "@components/Footer";
 
 export default function Home() {
   return (
-    <div className="app max-xl:px-4">
+    <div className="app">
       <Main />
       <Highlight />
       <ProjectList />

@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: "15px",
+        screens: {
+          md: "750px",
+          lg: "970px",
+          xl: "1170px",
+          "2xl": "1496px",
+        },
+      },
       colors: {
         color: "#7d7d7d",
         pink: "#fc8596",
