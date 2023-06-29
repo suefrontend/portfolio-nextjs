@@ -22,7 +22,7 @@ const Highlight = () => {
       id: 3,
       title: "Website Renewal",
       description:
-        "By analyzing the current issues of the website, I make strategic improvements to optimize its performance and user experience while maximizing its successful aspects.",
+        "By analyzing the current issues of the website, I make strategic improvements to optimize its user experience while maximizing its successful aspects.",
       icon: "website-renewal",
     },
   ];
@@ -39,7 +39,7 @@ const Highlight = () => {
   });
 
   return (
-    <div className="lg:w-3/4 min-2xl:w-3/4 container">
+    <div className="min-lg:w-3/4 2xl:w-3/4 container">
       {/* w-4/6 -> 66.666667%; w-3/4 -> 75% */}
       <h2
         className="text-center mb-14 title text-lg pb-1 tracking-wide"
@@ -55,7 +55,7 @@ const Highlight = () => {
         organizations in Canada and Japan, spanning from small businesses to the
         UN.
       </p>
-      <div className="grid md:grid-cols-3 md:gap-6 max-md:gap-4 2xl:gap-16">
+      <div className="grid md:grid-cols-3 md:gap-4 lg:gap-6 max-md:gap-4 2xl:gap-12">
         {renderedList}
       </div>
     </div>
