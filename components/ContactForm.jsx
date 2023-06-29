@@ -48,8 +48,6 @@ const ContactForm = () => {
     },
   });
 
-  console.log("formik value", formik.values);
-
   return (
     <form onSubmit={formik.handleSubmit}>
       <div className="mb-2">
@@ -139,7 +137,10 @@ const ContactForm = () => {
         ></textarea>
       </div>
       <div>
-        <button type="submit" className="bg-pink text-white w-full py-2">
+        <button
+          type="submit"
+          className="bg-pink text-white w-full py-2 relative btn-pink"
+        >
           Submit
         </button>
       </div>
