@@ -19,9 +19,9 @@ function Footer() {
           </Link>
         </li>
         <li className="bg-gray-100 p-3 rounded-full">
-          <Link href="/">
+          <a href="mailto:oyamakayano@gmail.com">
             <FaEnvelope size={20} className="text-gray-400" />
-          </Link>
+          </a>
         </li>
       </ul>
       <span className="text-xs">&copy; 2023 Kayano Oyama</span>
