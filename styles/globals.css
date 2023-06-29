@@ -9,6 +9,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  /* box-sizing: border-box; */
+}
+
 body {
   background: url("/images/group.svg") repeat;
 }
