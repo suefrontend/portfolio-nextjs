@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+<<<<<<< HEAD
       container: {
         center: true,
         padding: "15px",
@@ -23,6 +24,10 @@ module.exports = {
         lightgrey: "#959595",
         bglightgrey: "#f1f1f1",
         darkgrey: "#ababab",
+=======
+      colors: {
+        pink: "#fc8596",
+>>>>>>> 557af377ff4de47387b9efd5be834ce1ce5e720c
       },
     },
   },
