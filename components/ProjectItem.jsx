@@ -15,16 +15,25 @@ function ProjectItem(props) {
       }`}
       key={id}
     >
-      <div style={{ borderWidth: "1px" }} className="max-md:mb-6">
-        <Image src={image} width={1100} height={315} alt={title} />
+      <div className="relative max-md:mb-6 border w-full max-md:h-60">
+        <Image
+          src={image}
+          fill
+          alt={title}
+          className="object-contain"
+          // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+        {/* </div> */}
       </div>
-      <div>
+      <div className="flex-2">
         <h3 className="text-2xl">{title}</h3>
         <span className="text-pink block">{subtitle}</span>
         <p className="py-8 leading-6">{description}</p>
         <div className="mb-6 flex flex-wrap gap-2">
           {skills.map((skill) => (
-            <span className="bg-gray-100 text-xs py-1 px-2">{skill}</span>
+            <span className="bg-bglightgrey text-xs py-1 px-2 text-lightgrey">
+              {skill}
+            </span>
           ))}
         </div>
         <div className="flex gap-2 text-center text-sm mt-4">
