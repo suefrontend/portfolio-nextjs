@@ -10,18 +10,6 @@ import Footer from "@components/Footer";
 import Header from "@components/Header";
 
 export default function Home() {
-  const [clientWindowHeight, setClientWindowHeight] = useState("");
-
-  const handleScroll = () => {
-    setClientWindowHeight(window.scrollY);
-    console.log("clientWindowHeight", clientWindowHeight);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
-
   return (
     <>
       <Header />
