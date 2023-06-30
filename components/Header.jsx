@@ -32,7 +32,7 @@ function Header() {
       className={`w-full text-center ${
         isFixed
           ? "fixed top-0 bg-white shadow z-10 py-3"
-          : "absolute max-lg:top-8 lg:top-24"
+          : "absolute max-lg:top-10 lg:top-24"
       } `}
     >
       <h1
