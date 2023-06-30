@@ -1,6 +1,8 @@
-import React from "react";
+import { useRef } from "react";
 
-function Nav() {
+function Header() {
+  const headerRef = useRef();
+
   return (
     <div className="uppercase w-full text-center absolute max-lg:top-8 lg:top-24">
       <h1 className="lg:text-3xl max-lg:text-xl tracking-wider">
@@ -13,4 +15,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Header;
