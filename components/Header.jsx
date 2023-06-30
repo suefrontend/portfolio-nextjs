@@ -29,22 +29,22 @@ function Header() {
   return (
     <div
       ref={headerRef}
-      className={`uppercase w-full text-center ${
+      className={`w-full text-center ${
         isFixed
           ? "fixed top-0 bg-white shadow z-10 py-3"
-          : "absolute max-lg:top-8 lg:top-24 border border-purple-600"
+          : "absolute max-lg:top-8 lg:top-24"
       } `}
     >
       <h1
-        className={`tracking-wider animation ${
-          isFixed ? "text-2xl" : "lg:text-3xl max-lg:text-xl"
+        className={`uppercase tracking-wider ${
+          isFixed ? "text-xl" : "lg:text-3xl max-lg:text-2xl"
         }`}
       >
         Kayano Oyama
       </h1>
       <span
-        className={`text-pink  tracking-widest ${
-          isFixed ? "text-sm" : "lg:text-lg max-lg:text-sm"
+        className={`uppercase text-pink  tracking-widest ${
+          isFixed ? "text-xs" : "lg:text-lg max-lg:text-sm"
         }`}
       >
         Software Developer
