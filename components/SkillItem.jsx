@@ -20,7 +20,7 @@ function SkillItem(props) {
   return (
     <div className="mb-4">
       <span className="text-sm">{title}</span>
-      <div className="skill-container bg-gray-300 mt-2">
+      <div className="skill-container bg-skillgrey mt-2">
         <div
           className={`skill-percentage bg-pink ${percengateToWidth[percentage]}`}
         ></div>
