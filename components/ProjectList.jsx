@@ -49,6 +49,16 @@ function ProjectList() {
     //     "https://github.com/suefrontend/match-headline-and-thumbnail-react",
     //   image: "/images/project/wikimap.png",
     // },
+    {
+      id: 4,
+      title: "Kayano Oyama - Software Developer Portfolio",
+      subtitle: "Personal Project",
+      description:
+        "My portfolio website showcases my expertise as a software developer. It's fully optimized for responsive design. The CG model featured is an actual toy I created during my university days when I was majoring in industrial design.",
+      skills: ["React", "Next.js", "Tailwind CSS", "UI Design"],
+      github: "https://github.com/suefrontend/portfolio-nextjs",
+      image: "/images/project/portfolio.png",
+    },
   ];
 
   const renderedList = projects.map((project, index) => {

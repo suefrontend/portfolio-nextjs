@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
@@ -10,9 +9,7 @@ function ProjectItem(props) {
   return (
     // flex-row-reverse
     <div
-      className={`md:flex md:gap-10 ${
-        isOdd ? "flex-row-reverse" : ""
-      }`}
+      className={`md:flex md:gap-10 ${isOdd ? "flex-row-reverse" : ""}`}
       key={id}
     >
       <div className="relative max-md:mb-6 w-full max-md:h-60">
@@ -23,9 +20,8 @@ function ProjectItem(props) {
           className="object-contain"
           // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        {/* </div> */}
       </div>
-      <div className="flex-2">
+      <div>
         <h3 className="text-2xl">{title}</h3>
         <span className="text-pink block">{subtitle}</span>
         <p className="md:py-10 max-md:py-8 leading-7">{description}</p>
