@@ -68,7 +68,7 @@ const ContactForm = () => {
           value={formik.values.name}
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
-          placeholder="Name"
+          placeholder="Your name"
         />
       </div>
       <div className="mb-2">
@@ -133,7 +133,7 @@ const ContactForm = () => {
           value={formik.values.message}
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
-          placeholder="Message"
+          placeholder="Your message"
         ></textarea>
       </div>
       <div>
