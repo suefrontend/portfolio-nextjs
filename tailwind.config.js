@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         color: "#7d7d7d",
         pink: "#fc8596",
+        navgrey: "#9f9f9f",
         lightgrey: "#959595",
         bglightgrey: "#f1f1f1",
         darkgrey: "#ababab",
