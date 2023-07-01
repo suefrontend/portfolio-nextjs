@@ -5,8 +5,8 @@ export default function sendGmail(req, res) {
     host: "smtp.gmail.com",
     port: 587,
     auth: {
-      user: process.env.GMAILUSER,
-      pass: process.env.GMAILPASSWORD,
+      user: process.env.NEXT_PUBLIC_GMAILUSER,
+      pass: process.env.NEXT_PUBLIC_GMAILPASSWORD,
     },
   });
 
