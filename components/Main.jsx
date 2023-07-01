@@ -9,7 +9,7 @@ function Main() {
           src="/images/spiral-new.png"
           fill
           className="mx-auto mix-blend-darken object-contain"
-          alt="Spiral"
+          alt="spiral"
         />
       </div>
     </div>
