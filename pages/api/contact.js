@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-export default function sendGmail(req, res) {
+export default async (req, res) => {
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
@@ -25,12 +25,17 @@ export default function sendGmail(req, res) {
     `,
   };
 
-  transporter.sendMail(toHostMailData, function (err, info) {
-    if (err) console.log("ERROR:", err);
-    else {
-      console.log("info", info);
-    }
+  await new Promise((resolve, reject) => {
+    transporter.sendMail(toHostMailData, (err, info) => {
+      if (err) {
+        console.log("ERROR:", err);
+        reject(err);
+      } else {
+        console.log("info", info);
+        resolve(info);
+      }
+    });
   });
 
   return res.send("Success");
-}
+};
