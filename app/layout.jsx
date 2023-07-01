@@ -1,7 +1,7 @@
 import "@styles/globals.css";
 import { Lusitana } from "@next/font/google";
 import Script from "next/script";
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 export const metadata = {
   title: "Kayano Oyama | Frontend Developer",
