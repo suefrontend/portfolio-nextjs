@@ -9,7 +9,7 @@ function About() {
         About Me
       </h2>
       <h3 className="text-pink text-center text-lg">
-        Expanding from Front-end to Full-stack
+        Expanding from Front-end to Full-stack.
       </h3>
       <div className=" pt-6 mb-16 leading-8">
         <p className="mb-6">
