@@ -38,17 +38,17 @@ function ProjectList() {
       github: "https://github.com/suefrontend/first-aide-client",
       image: "/images/project/first-aide.png",
     },
-    // {
-    //   id: 3,
-    //   title: "SnapNews - Educational Quiz App",
-    //   subtitle: "Personal Project",
-    //   description:
-    //     "SnapNews is a quiz app that utilizes BBC news RSS. Users select from a group of thumbnails, the image that best matches a provided headline. It's a fun and interactive way to test your knowledge and stay updated with the latest news.",
-    //   skills: ["React", "API", "UI Design"],
-    //   github:
-    //     "https://github.com/suefrontend/match-headline-and-thumbnail-react",
-    //   image: "/images/project/wikimap.png",
-    // },
+    {
+      id: 3,
+      title: "SnapNews - Educational Quiz App",
+      subtitle: "Personal Project",
+      description:
+        "SnapNews is a quiz app that utilizes BBC news RSS. Users select from a group of thumbnails, the image that best matches a provided headline. It's a fun and interactive way to test your knowledge and stay updated with the latest news.",
+      skills: ["React", "Next.js", "Tailwind CSS", "API", "UI Design"],
+      github:
+        "https://github.com/suefrontend/match-headline-and-thumbnail-react",
+      image: "/images/project/snapnews.png",
+    },
     {
       id: 4,
       title: "Kayano Oyama - Software Developer Portfolio",
