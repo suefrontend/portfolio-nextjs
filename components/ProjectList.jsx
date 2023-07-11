@@ -44,7 +44,7 @@ function ProjectList() {
       subtitle: "Personal Project",
       description:
         "SnapNews is a quiz app that utilizes BBC news RSS. Users select from a group of thumbnails, the image that best matches a provided headline. It's a fun and interactive way to test your knowledge and stay updated with the latest news.",
-      skills: ["React", "API", "UI Design"],
+      skills: ["React", "Next.js", "TailwindCSS", "API", "UI Design"],
       github:
         "https://github.com/suefrontend/match-headline-and-thumbnail-react",
       image: "/images/project/snapnews.png",
