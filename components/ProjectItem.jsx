@@ -3,8 +3,17 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
 function ProjectItem(props) {
-  const { id, title, subtitle, description, skills, github, image, isOdd } =
-    props;
+  const {
+    id,
+    title,
+    subtitle,
+    description,
+    skills,
+    github,
+    preview,
+    image,
+    isOdd,
+  } = props;
 
   return (
     // flex-row-reverse
@@ -34,14 +43,11 @@ function ProjectItem(props) {
         </div>
         <div className="flex gap-2 text-center text-sm mt-4">
           <a
-            href="/"
+            href={preview}
+            target="_blank"
             className="bg-pink flex-1 py-2 text-white flex items-center justify-center relative btn-pink"
-            onClick={(e) => {
-              e.preventDefault();
-              alert("I'm working on this page right now!");
-            }}
           >
-            <span className="mt-1">Detail</span>
+            <span className="mt-1">Preview</span>
           </a>
           <a
             href={github}
