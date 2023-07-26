@@ -76,6 +76,7 @@ function ProjectList() {
         description={project.description}
         skills={project.skills}
         github={project.github}
+        preview={project.preview}
         image={project.image}
         isOdd={isOdd}
       />
