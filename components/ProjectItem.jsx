@@ -41,7 +41,7 @@ function ProjectItem(props) {
               alert("I'm working on this page right now!");
             }}
           >
-            <span className="mt-1">Detail</span>
+            <span className="mt-1">Preview</span>
           </a>
           <a
             href={github}
