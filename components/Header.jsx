@@ -47,7 +47,7 @@ function Header() {
           isFixed ? "text-xs" : "lg:text-lg max-lg:text-sm"
         }`}
       >
-        Software Developer
+        Full-stack Developer
       </span>
     </div>
   );
